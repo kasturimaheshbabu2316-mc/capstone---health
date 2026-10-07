@@ -168,6 +168,7 @@ classDiagram
 #### Statistical Invariants & Constraint Validation
 
 Generation strictly validates:
+
 1. Total dataset size $N_{\text{total}} \ge 40$.
 2. Category diversity: $\forall c \in \text{Categories}, \text{count}(c) \ge 3$.
 3. Status coverage: $\forall s \in \text{Statuses}, \text{count}(s) \ge 1$.
